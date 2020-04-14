@@ -1,0 +1,126 @@
+body{
+	font-family: tahoma;
+	font-size: 14px;
+    margin: 0px auto;
+    background: url(../img/shopquanao1.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.tong{
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+}
+.tren {
+    height: 250px;
+    background: rgb(241, 241, 241);
+}
+.tieude {
+    height: 200px;
+    width: 1000px;
+    margin: 0px auto;
+    background: #ffd2d2;
+}
+.tieude img{
+    width: 100%;
+}
+.menu{
+	width: 1000px;
+	height: 40px;
+    margin: 0px auto;
+	background: #dd6b00;
+    margin-top: 5px;
+}
+.menu-trai ul{
+	margin: 0px;
+	padding: 0px;
+}
+.menu-trai ul li{
+	list-style: none;
+	float: left;
+}
+.menu-trai ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: white;
+	padding: 0px 20px 0px 20px;
+	border-right: 2px solid #cccccc;
+}
+.menu-trai ul li a:hover {
+  background-color: #5cce6d;
+  font-weight: bold;
+}
+.menu-phai{
+    float: right;
+    margin: 7px 20px 0px 0px;
+}
+.giua {
+    height: 2930px;
+    width: 1000px;
+    margin: 0px auto;
+}
+.giua-phai {
+    width: 1000px;
+    float: right;
+    margin-top: 10px;
+}.giua-phai-tren {
+    height: 50px;
+    width: 100%;
+    background: #dd6b00;
+}
+.giua-phai-tren p{
+    text-align: center; 
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #dbdbdb;
+}
+.giua-phai-duoi {
+    height: 300px;
+    width: 1000px;
+    background: #fcfcfc;
+    border: 2px solid #a7a7a7;
+}
+.sanpham ul {
+    margin: 3px;
+    padding: 0px;
+}
+.sanpham ul li{
+    list-style: none;
+    width: 150px;
+    text-align: center;
+    float: left;
+    margin: 10px 20px 0px 25px;
+}
+.sanpham ul li a{
+    text-decoration: none;
+    display: block;
+}
+.duoi {
+    height: 150px;
+    background: rgb(241, 241, 241);
+    margin: 0px auto;
+}
+.lienhe{
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+}
+.left{
+    width: 240px;
+    margin-right: 10px;
+    float: left;
+}
+.middle{
+    width: 500px;
+    float: left;
+}
+.right{
+    width: 240px;
+    margin-left: 10px;
+    float: left;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quản lý bán hàng thời trang online</title>
+    <link rel="stylesheet" href="style/dangnhap1.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="js/dangnhap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="tong">
+     <div class="khungtong">
+	     <div class="tua">
+	        <img src="img/tua.jpg">
+	     </div>
+	     <div class="giua">
+			 <form onsubmit="return dangnhaptc()" action="admin/adindex.html" method="POST" role="form">
+				<div class="dangnhap">
+					<p><b>Đăng Nhập</b></p>
+				</div>
+				<div class="taikhoan">
+					<label for="taikhoan">Tài Khoản</label>
+					<input type="text" name="taikhoan" id="taikhoan"/>
+				</div>
+				<div class="matkhau">
+					<label for="matkhau">Mật Khẩu</label>
+					<input type="password" name="matkhau" id="matkhau"/>
+				</div>
+				<div class="nut">
+				   <button type="submit" >Đăng Nhập</button>
+				</div>
+			 </form>
+		 </div><!--giua-->
+	 </div>
+  </div>
+</body>
+</html>

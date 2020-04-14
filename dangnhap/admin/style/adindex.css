@@ -1,0 +1,122 @@
+body{
+	font-family: tahoma;
+	font-size: 14px;
+	margin: 0px auto;
+}
+.tong{
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+}
+.tren {
+    height: 250px;
+    background: rgba(204, 204, 204, 0.77);
+}
+.tieude {
+    height: 200px;
+    width: 1000px;
+    margin: 0px auto;
+    background: #ffd2d2;
+}
+.menu{
+	width: 1000px;
+	height: 40px;
+    margin: 0px auto;
+	background: #dd6b00;
+    margin-top: 5px;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: white;
+	padding: 0px 30px 0px 30px;
+	border-right: 2px solid #cccccc;
+}
+.menu ul li a:hover {
+  background-color: #5cce6d;
+  font-weight: bold;
+}
+.giua {
+    height: 600px;
+    width: 1000px;
+    margin: 0px auto;
+    background: #804747;
+}
+.giua-trai {
+    width: 300px;
+    height: 590px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background:#919782;
+}
+.giua-trai1{
+    border: 1px solid #cccccc;
+}
+.giua-trai2{
+    border: 1px solid #cccccc;
+    margin: 1px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 17px;
+    text-align: center;
+}
+.giua-trai3{
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: -4px;
+    float: left;
+}
+.giua-trai3 label{
+    border: 1px solid #cccccc;
+    height: 27px;
+    line-height: 27px;
+}
+.giua-trai3 input{
+    border: 2px solid #cccccc;
+    height: 27px;
+    width: 195px;
+    margin-left: 1px;
+}
+.giua-trai4{
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: -4px;
+    float: left;
+}
+.giua-trai4 label{
+    border: 1px solid #cccccc;
+    height: 27px;
+    line-height: 27px;
+}
+.giua-trai4 input{
+    border: 2px solid #cccccc;
+    height: 27px;
+    width: 195px;
+    margin-left: 1px;
+}
+.giua-trai label{
+    float: left;
+    width: 100px;
+}
+.giua-phai {
+    width: 690px;
+    height: 100%;
+    float: right;
+    background: #e5a577;
+}
+.duoi {
+    height: 250px;
+    background: rgba(204, 204, 204, 0.77);
+}
